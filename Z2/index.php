@@ -92,7 +92,6 @@ echo "<table border='1'>";
 //            }
         echo "<td>", $p, "</td>";
 
-        //cant get the number bold
 
         } else
          {
