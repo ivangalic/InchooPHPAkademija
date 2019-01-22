@@ -94,9 +94,7 @@ echo "<table border='1'>";
 
         //cant get the number bold
 
-        } elseif (in_array($p, $even) &&  $p == $bold){
-             echo "<td><b>", $p, "</b></td>";
-            }else
+        } else
          {
         echo "<td>", "</td>";
         }
