@@ -11,7 +11,7 @@
 <body>
 
 
-<form method="post" action="05.php" enctype="application/x-www-form-urlencoded">
+<form method="post" action="index.php" enctype="application/x-www-form-urlencoded">
     Enter string:<br>
     <input type="text" name="id" value=""><br>
     <input type="submit" value="Submit">
@@ -87,9 +87,9 @@ echo "<table border='1'>";
 
         for ($j = 0; $j < $squareRootPlusOne; $j++) {
         if (in_array($p, $even)) {
-            if ($p == $bold) {
-                $p= '<strong>' . $p . '</strong>';
-            }
+//            if ($p == $bold) {
+//                $p= '<strong>' . $p . '</strong>';
+//            }
         echo "<td>", $p, "</td>";
 
         //cant get the number bold
